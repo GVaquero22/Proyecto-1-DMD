@@ -1,0 +1,295 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3bb490e3-163b-4fd1-beea-6a007cb9098a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DB Esquelas</ID>
+  <Name>DB Esquelas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1911" scrolltop="-3916" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8229" y="12832" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DB_Esquelas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e11000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DB_Esquelas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1911</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3916</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cdb55a7a-4289-4030-8f29-b368219be1a2">
+    <DataSourceViewID>Data MOP</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="dd83d903-c499-42e2-94bb-565dabf23556">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="56e6a5ff-d90c-40e7-a031-eb8e95fd4d73">
+      <ID>Id</ID>
+      <Name>Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4fd3264e-7eb8-4e4f-a830-63d19dad2acb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d95d235-8067-40be-98b3-7eb8853443b6">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Id</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="089bcbfd-2570-48ff-a7a3-81ce28b79b16">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3b728ffd-1a4b-4ddc-904b-a7b1fff60378">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Nro_Esquela</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="1c1b32f7-7801-4be2-9986-cecf0e5432ed">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9e39b6d-7c05-46fb-8e6a-7e3af32e823e">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Fecha</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="3ab3e906-039a-45cc-9810-760043834935">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e27e36aa-f425-447a-bbda-f2104749bab4">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Tipo_Falta</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="84cbce1f-57a2-429d-90cd-001b7ddbaa27">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e2c62a6-8be5-40e2-b396-06d9737c33de">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Falta_Descripcion</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="74570037-d296-4e9f-abdb-a6c1adc880c3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d96a019c-dd8b-46d8-b794-762acd8ee0f3">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Departamento</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="0a4b3147-e080-4462-a590-c4e2d1d1124f">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a8d646f-3da3-4cff-b03d-ef744a2c6df2">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Estado</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ba2c3ac2-ba50-4ff9-a9bc-f6d92b685d0f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f84a684-5a52-4191-b43d-c3cb03afbd0d">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Estado_Descripcion</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ecff8b72-2d89-4890-b599-71141dc21d73">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef28c2d3-839b-4099-943e-24da141784d5">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Valor</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e004f86f-104c-4cca-ba74-a644cef8e43c">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="96db3e37-8107-4ff9-adc6-509018139bbb">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Interes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="19e8be2f-c18d-4cf6-8618-56061d1ab964">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d7943dd5-59f8-4760-94f6-6c908e98aa3a">
+          <TableID>dbo_DB_Esquelas</TableID>
+          <ColumnID>Id</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="97769fcd-2900-4c5d-a35d-a9db668990e1">
+          <AttributeID>Ves Departamento</AttributeID>
+          <Name>Ves Departamento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="02b333fc-fc2c-4c1d-8bf2-c007afa52061">
+          <AttributeID>Ves Tipo Falta</AttributeID>
+          <Name>Ves Tipo Falta</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="843048a0-cea5-4e1e-9193-11f0f3363407">
+          <AttributeID>Ves Fecha</AttributeID>
+          <Name>Ves Fecha</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a9cb4a93-fc5e-4483-8c44-c2897dfb8db4">
+          <AttributeID>Ves Estado</AttributeID>
+          <Name>Ves Estado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a3de7cb6-6b4b-49ea-b04d-460d89f36348">
+          <AttributeID>Ves Estado Descripcion</AttributeID>
+          <Name>Ves Estado Descripcion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5cf43802-086e-42e8-84d0-181b68cf085a">
+          <AttributeID>Ves Falta Descripcion</AttributeID>
+          <Name>Ves Falta Descripcion</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="67fe0156-c3f9-4e4d-a902-2645fa95c9a6">
+      <ID>Ves Departamento</ID>
+      <Name>Ves Departamento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c8b87e8b-bdb9-4407-92be-7411859afe74">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5f30a147-c29c-4f51-821a-b5d34935bf90">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Departamento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3cf4f7a1-29bb-486c-abf9-1c0a66075c32">
+      <ID>Ves Tipo Falta</ID>
+      <Name>Ves Tipo Falta</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="44f8b84d-a6f7-4917-8279-aace0e3acd6f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3f9858a3-c97e-4ee5-99d8-cfb9b2cf1785">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Tipo_Falta</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ff1b563e-1be9-4b79-95d9-310330077dc3">
+      <ID>Ves Fecha</ID>
+      <Name>Ves Fecha</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="571d9aa8-2919-4127-b6d5-bde4afc819d1">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91e77b8c-9b47-423d-baba-440331d0d05c">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Fecha</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7f752238-1c57-4e6a-9571-92042fa86e77">
+      <ID>Ves Estado</ID>
+      <Name>Ves Estado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f13ac2bb-ac0c-43c0-953a-911a3a008229">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0af05493-2360-4344-b8a7-4b83e0e6081a">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Estado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f65495f-3f9e-4cb8-94ac-477569e9108b">
+      <ID>Ves Estado Descripcion</ID>
+      <Name>Ves Estado Descripcion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="53ba0192-2b5c-47ea-a6c9-6e1cc8445b70">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="768a5e04-0531-4d18-a626-ce4f340a588e">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Estado_Descripcion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0b4933bc-ab33-462f-bd9d-7ae5ece4a290">
+      <ID>Ves Falta Descripcion</ID>
+      <Name>Ves Falta Descripcion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09b94fcb-0289-4b4d-b308-e069a5f5cb5b">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6fb8845b-54cb-43d6-91a2-b3894a2926c8">
+            <TableID>dbo_DB_Esquelas</TableID>
+            <ColumnID>Ves_Falta_Descripcion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

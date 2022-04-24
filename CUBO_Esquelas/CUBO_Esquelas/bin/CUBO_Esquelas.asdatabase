@@ -1,0 +1,737 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CUBO_Esquelas</ID>
+  <Name>CUBO_Esquelas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <Dimensions>
+    <Dimension>
+      <ID>DB Esquelas</ID>
+      <Name>DB Esquelas</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1911" scrolltop="-3916" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8229" y="12832" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DB_Esquelas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00000e11000088130000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DB_Esquelas" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-1911</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-3916</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Data MOP</DataSourceViewID>
+      </Source>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Id</ID>
+          <Name>Id</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Id</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>BigInt</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Nro_Esquela</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Fecha</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Tipo_Falta</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>500</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Falta_Descripcion</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Departamento</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>25</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Estado</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Estado_Descripcion</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Valor</ColumnID>
+              </Source>
+            </KeyColumn>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Interes</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DB_Esquelas</TableID>
+              <ColumnID>Id</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Ves Departamento</AttributeID>
+              <Name>Ves Departamento</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Ves Tipo Falta</AttributeID>
+              <Name>Ves Tipo Falta</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Ves Fecha</AttributeID>
+              <Name>Ves Fecha</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Ves Estado</AttributeID>
+              <Name>Ves Estado</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Ves Estado Descripcion</AttributeID>
+              <Name>Ves Estado Descripcion</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Ves Falta Descripcion</AttributeID>
+              <Name>Ves Falta Descripcion</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Ves Departamento</ID>
+          <Name>Ves Departamento</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Departamento</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Ves Tipo Falta</ID>
+          <Name>Ves Tipo Falta</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Tipo_Falta</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Ves Fecha</ID>
+          <Name>Ves Fecha</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Fecha</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Ves Estado</ID>
+          <Name>Ves Estado</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>25</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Estado</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Ves Estado Descripcion</ID>
+          <Name>Ves Estado Descripcion</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Estado_Descripcion</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Ves Falta Descripcion</ID>
+          <Name>Ves Falta Descripcion</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>500</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_DB_Esquelas</TableID>
+                <ColumnID>Ves_Falta_Descripcion</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+  </Dimensions>
+  <Cubes>
+    <Cube>
+      <ID>Data MOP</ID>
+      <Name>Data MOP</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8975" scrolltop="-3916" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22357" y="12832" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DB_Esquelas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00000e11000088130000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DB_Esquelas" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-8975</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-3916</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Dimensions>
+        <Dimension>
+          <ID>DB Esquelas</ID>
+          <Name>DB Esquelas</Name>
+          <DimensionID>DB Esquelas</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Ves Departamento</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Ves Tipo Falta</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Ves Fecha</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Ves Estado</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Ves Estado Descripcion</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Ves Falta Descripcion</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup>
+          <ID>DB Esquelas</ID>
+          <Name>DB Esquelas</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Measures>
+            <Measure>
+              <ID>Id</ID>
+              <Name>Id</Name>
+              <Source>
+                <DataType>Integer</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_DB_Esquelas</TableID>
+                  <ColumnID>Id</ColumnID>
+                </Source>
+              </Source>
+            </Measure>
+            <Measure>
+              <ID>Ves Nro Esquela</ID>
+              <Name>Ves Nro Esquela</Name>
+              <Source>
+                <DataType>BigInt</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_DB_Esquelas</TableID>
+                  <ColumnID>Ves_Nro_Esquela</ColumnID>
+                </Source>
+              </Source>
+            </Measure>
+            <Measure>
+              <ID>Ves Valor</ID>
+              <Name>Ves Valor</Name>
+              <Source>
+                <DataType>Double</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_DB_Esquelas</TableID>
+                  <ColumnID>Ves_Valor</ColumnID>
+                </Source>
+              </Source>
+            </Measure>
+            <Measure>
+              <ID>Ves Interes</ID>
+              <Name>Ves Interes</Name>
+              <Source>
+                <DataType>Double</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_DB_Esquelas</TableID>
+                  <ColumnID>Ves_Interes</ColumnID>
+                </Source>
+              </Source>
+            </Measure>
+            <Measure>
+              <ID>Recuento DB Esquelas</ID>
+              <Name>Recuento DB Esquelas</Name>
+              <AggregateFunction>Count</AggregateFunction>
+              <Source>
+                <DataType>Integer</DataType>
+                <DataSize>4</DataSize>
+                <Source xsi:type="RowBinding">
+                  <TableID>dbo_DB_Esquelas</TableID>
+                </Source>
+              </Source>
+            </Measure>
+          </Measures>
+          <StorageMode>Molap</StorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Dimensions>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>DB Esquelas</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Id</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>BigInt</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Nro_Esquela</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>Date</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Fecha</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>WChar</DataType>
+                      <DataSize>50</DataSize>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Tipo_Falta</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>WChar</DataType>
+                      <DataSize>500</DataSize>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Falta_Descripcion</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>WChar</DataType>
+                      <DataSize>50</DataSize>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Departamento</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>WChar</DataType>
+                      <DataSize>25</DataSize>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Estado</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>WChar</DataType>
+                      <DataSize>50</DataSize>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Estado_Descripcion</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Valor</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_DB_Esquelas</TableID>
+                        <ColumnID>Ves_Interes</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Partitions>
+            <Partition>
+              <ID>DB Esquelas</ID>
+              <Name>DB Esquelas</Name>
+              <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+              <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+              <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+              <State>Unprocessed</State>
+              <Source xsi:type="DsvTableBinding">
+                <DataSourceViewID>Data MOP</DataSourceViewID>
+                <TableID>dbo_DB_Esquelas</TableID>
+              </Source>
+              <StorageMode>Molap</StorageMode>
+              <CurrentStorageMode>Molap</CurrentStorageMode>
+              <ProcessingMode>Regular</ProcessingMode>
+            </Partition>
+          </Partitions>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Source>
+        <DataSourceViewID>Data MOP</DataSourceViewID>
+      </Source>
+    </Cube>
+  </Cubes>
+  <DataSources>
+    <DataSource xsi:type="RelationalDataSource">
+      <ID>Data MOP</ID>
+      <Name>Data MOP</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-BUMRL9S;Integrated Security=SSPI;Initial Catalog=Data_MOP</ConnectionString>
+      <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+      <ImpersonationInfo>
+        <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
+        <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+      </ImpersonationInfo>
+      <Timeout>PT0S</Timeout>
+    </DataSource>
+  </DataSources>
+  <DataSourceViews>
+    <DataSourceView>
+      <ID>Data MOP</ID>
+      <Name>Data MOP</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+          <Value>_ALL_TABLES_</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+          <Value>1</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+          <Value></Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+          <Value>
+            <Layouts xmlns="">
+              <Diagram>
+                <Name>_ALL_TABLES_</Name>
+                <DiagramLayout>
+                  <dds>
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9240" scrolltop="-4577" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="22886" y="14155" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                      <font>
+                        <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                      </font>
+                      <mouseicon>
+                        <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                      </mouseicon>
+                    </diagram>
+                    <layoutmanager>
+                      <ddsxmlobj />
+                    </layoutmanager>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DB_Esquelas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000e00000e11000088130000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_DB_Esquelas" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                  </dds>
+</DiagramLayout>
+                <ShowRelationshipNames>False</ShowRelationshipNames>
+                <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+                <DiagramViewPortLeft>-9240</DiagramViewPortLeft>
+                <DiagramViewPortTop>-4577</DiagramViewPortTop>
+                <DiagramBoundingLeft>0</DiagramBoundingLeft>
+                <DiagramBoundingTop>0</DiagramBoundingTop>
+                <DiagramZoom>100</DiagramZoom>
+              </Diagram>
+            </Layouts>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <DataSourceID>Data MOP</DataSourceID>
+      <Schema>
+        <xs:schema id="Data_x0020_MOP" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+          <xs:element name="Data_x0020_MOP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="3b3f5fea-d629-473a-b731-87146f148c8d">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="dbo_DB_Esquelas" msprop:design-time-name="ee47b5ad-9a89-45b4-b58b-0325c7520b66" msprop:FriendlyName="DB_Esquelas" msprop:DbSchemaName="dbo" msprop:DbTableName="DB_Esquelas" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="9a662522-269b-40c1-93af-05f1fd9b92f7" msprop:DbColumnName="Id" msprop:FriendlyName="Id" type="xs:int" />
+                      <xs:element name="Ves_Nro_Esquela" msprop:design-time-name="2ef89376-3a5a-4502-ab6a-2e69fac08b91" msprop:DbColumnName="Ves_Nro_Esquela" msprop:FriendlyName="Ves_Nro_Esquela" type="xs:long" minOccurs="0" />
+                      <xs:element name="Ves_Fecha" msprop:design-time-name="3e5fb491-a6f7-495f-92f2-2cb633caf1b1" msprop:DbColumnName="Ves_Fecha" msprop:FriendlyName="Ves_Fecha" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Ves_Tipo_Falta" msprop:design-time-name="466df1b5-113c-4e1b-99c9-b87e21d8186b" msprop:DbColumnName="Ves_Tipo_Falta" msprop:FriendlyName="Ves_Tipo_Falta" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Ves_Falta_Descripcion" msprop:design-time-name="7a0e5722-0a76-44ab-9d15-43a5f24169e0" msprop:DbColumnName="Ves_Falta_Descripcion" msprop:FriendlyName="Ves_Falta_Descripcion" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="500" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Ves_Departamento" msprop:design-time-name="2ba522c4-cc76-406d-961c-34f71cbbddf4" msprop:DbColumnName="Ves_Departamento" msprop:FriendlyName="Ves_Departamento" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Ves_Estado" msprop:design-time-name="9b3dc6f0-b82c-4ccf-95bd-0ece66bde5b4" msprop:DbColumnName="Ves_Estado" msprop:FriendlyName="Ves_Estado" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="25" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Ves_Estado_Descripcion" msprop:design-time-name="e4cf6041-5b32-44e3-8384-6fc0ff39caaf" msprop:DbColumnName="Ves_Estado_Descripcion" msprop:FriendlyName="Ves_Estado_Descripcion" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Ves_Valor" msprop:design-time-name="f76be532-a8e9-43f3-89e1-aa37403522e6" msprop:DbColumnName="Ves_Valor" msprop:FriendlyName="Ves_Valor" type="xs:decimal" minOccurs="0" />
+                      <xs:element name="Ves_Interes" msprop:design-time-name="9be7fc73-4429-400d-95e3-568141006e9f" msprop:DbColumnName="Ves_Interes" msprop:FriendlyName="Ves_Interes" type="xs:decimal" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+          </xs:element>
+        </xs:schema>
+        <Data_x0020_MOP xmlns="" />
+      </Schema>
+    </DataSourceView>
+  </DataSourceViews>
+</Database>
